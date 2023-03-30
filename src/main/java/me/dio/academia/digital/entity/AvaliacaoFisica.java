@@ -30,7 +30,9 @@ public class AvaliacaoFisica {
 	@ManyToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name = "aluno_id")
 	private Aluno aluno;
-
+	
+	
+	
 	private LocalDateTime dataDaAvaliacao = LocalDateTime.now();
 
 	@Column(name = "peso_atual")
