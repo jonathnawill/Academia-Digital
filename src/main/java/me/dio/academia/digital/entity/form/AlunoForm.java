@@ -21,8 +21,8 @@ public class AlunoForm {
 	@Size(min = 3, max = 50, message = "'${validatedValue}' precisa estar entre {min} e {max} caracteres.")
 	private String nome;
 
-	@javax.validation.constraints.NotEmpty(message = "Preencha o campo corretamente")
-	@CPF(message = "'${validatedValue} é invalido!")
+	//@javax.validation.constraints.NotEmpty(message = "Preencha o campo corretamente")
+	//@CPF(message = "'${validatedValue} é invalido!")
 	private String cpf;
 
 	@javax.validation.constraints.NotEmpty(message = "Preencha o campo corretamente")

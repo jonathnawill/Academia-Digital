@@ -20,8 +20,6 @@ import lombok.Setter;
 @Data // Abstrair o Crud
 @NoArgsConstructor // Criar um construtor vazio
 @AllArgsConstructor // Criar os construtores padrão
-@Getter
-@Setter
 @Entity
 @Table(name = "tb_matriculas")
 public class Matricula {
