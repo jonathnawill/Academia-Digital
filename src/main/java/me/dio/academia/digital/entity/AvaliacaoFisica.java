@@ -26,7 +26,8 @@ public class AvaliacaoFisica {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-
+	
+	// Efeito cascata 
 	@ManyToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name = "aluno_id")
 	private Aluno aluno;

@@ -20,7 +20,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data // Abstrair o Crud
+@Data // Criar os metodos getters e setters
 @NoArgsConstructor // Criar um construtor vazio
 @AllArgsConstructor // Criar os construtores padrão
 @Entity
